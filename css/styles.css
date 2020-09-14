@@ -85,6 +85,11 @@ img {
     justify-content: space-between;
     align-items: center;
 }
+
+.header .logo .pollo
+{
+    max-width: 200px;
+}
 .navegacion a{
     color: var(--claro);
     text-decoration: none;
@@ -235,6 +240,7 @@ main > section {
 }
 .destinos .card {
     position: relative;
+    
 }
 .destinos .info {
     position: absolute;
@@ -244,6 +250,7 @@ main > section {
 }
 .destinos .info .titulo {
     font-size: 1.8rem;
+    color: black;
 }
 /** Footer */
 .footer {
